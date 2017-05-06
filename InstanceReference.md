@@ -3,7 +3,7 @@ this? self?
 ## Java:
 this refers to the current object.
 Each non-static method runs in the context of an object. So if you have a class like this:
-```
+```Java
 public class MyThisTest {
   private int a;
 
@@ -33,7 +33,7 @@ public class MyThisTest {
 Every instance of a type has an implicit property called self, which is exactly equivalent to the instance itself. You use the self property to refer to the current instance within its own instance methods.
 The increment() method in the example above could have been written like this:
 
-```
+```Swift
 func increment() {
 self.count += 1	
 }
