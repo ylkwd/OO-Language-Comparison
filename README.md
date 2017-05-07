@@ -18,7 +18,7 @@ CS 4330/7330 Final Project:
 * #### [Instance reference name in data type (class)](https://github.com/ylkwd/OO-Language-Comparison/blob/master/InstanceReference.md)
 * #### [Properties](https://github.com/ylkwd/OO-Language-Comparison/blob/master/Property.md)
 * #### [Interfaces / protocols](https://github.com/ylkwd/OO-Language-Comparison/blob/master/Interface%20or%20Protocol.md)
-* #### [Inheritance / extension](https://google.com)
+* #### [Inheritance / extension](https://github.com/ylkwd/OO-Language-Comparison/blob/master/Inheritance%20or%20extension.md)
 * #### [Reflection](https://github.com/ylkwd/OO-Language-Comparison/blob/master/Reflection.md)
 * #### [Memory management](https://github.com/ylkwd/OO-Language-Comparison/blob/master/memory_management.md)
 * #### [Comparisons of references and values](https://github.com/ylkwd/OO-Language-Comparison/blob/master/comparisons_of_references_and_value.md)
