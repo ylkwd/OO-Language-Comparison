@@ -14,7 +14,7 @@ module ActiveRecord
 	end
 end
 ```
-```switf
+```swift
 enum ColorPalette {
     static let Red = UIColor(red: 1.0, green: 0.1491, blue: 0.0, alpha: 1.0)
     static let Green = UIColor(red: 0.0, green: 0.5628, blue: 0.3188, alpha: 1.0)
