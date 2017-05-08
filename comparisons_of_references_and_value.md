@@ -24,3 +24,19 @@ if(class1.equals(class2)) {
 }
 
 ```
+
+### Swift
+
+- In Swift, "==" is used to compare value same as Java, but Swift uses "===" to compare references.
+
+```Swift
+var aString = "123"                                 // "123"
+var bString = (aString as NSString)                 // "123"
+aString == bString                                       	// true, content equality
+aString === bString           								// error
+
+var st1 = NSString(string:st)                  // "123"
+var st2 = st1                                  // "123"
+st1 === st2                                    // true
+
+```

@@ -37,3 +37,16 @@ public static void printPersonsOlderThan(List<Person> roster, int age) {
     }
 }
 ```
+
+### Swift
+
+In Swift, there are four kinds of expressions
+- Prefix expressions, it allows user to apply operators to smaller expressions.
+- Binary expressions, it also allows user to apply operators to smaller expressions. 
+- Primary expressions is conceptually the simplest kind of expression, it provides a way to access values.
+- Postfix expressions is similar to prefix and binary expressions, it allows user to build up more complex expressions like function calls and member access. 
+
+Evaluating an expression returns a value, causes a side effect, or both.
+
+
+
