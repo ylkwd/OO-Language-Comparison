@@ -19,3 +19,4 @@ try {
 - A catch statement involves declaring the type of exception you are trying to catch. 
 - If an exception occurs in protected code, the catch block (or blocks) that follows the try is checked. 
 - If the type of exception that occurred is listed in a catch block, the exception is passed to the catch block much as an argument is passed into a method parameter.
+
