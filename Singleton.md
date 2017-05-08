@@ -9,7 +9,9 @@
 # When to use?
  Using Singleton pattern when to use shared resources.
 
-# Singleton in Java
+# How to use?
+
+* ## Singleton in Java
 ```Java
 public final class Singleton {
     private static final Singleton INSTANCE = new Singleton();
@@ -21,7 +23,7 @@ public final class Singleton {
     }
 }
 ```
-# Singleton in Swift
+* ## Singleton in Swift
 
 ```Swift
 class Trip {
@@ -65,7 +67,7 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
 
 }
 ```
-# Singleton in thread-safe case
+* ## Singleton in thread-safe case
 ```Java
 
 public class ASingleton{
@@ -87,7 +89,7 @@ public class ASingleton{
 }
 ```
 
-# Singleton in Lazy initialization case
+* ## Singleton in Lazy initialization case
 ```Java
 public final class Singleton {
     private static volatile Singleton instance = null;
