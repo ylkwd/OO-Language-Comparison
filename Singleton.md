@@ -29,7 +29,7 @@ public final class Singleton {
 class Trip {
 
     var photos = Array<TripPhoto>()
-    //create a static constant called sharedInstance with a private initializer.
+    //create a static constant called sharedInstance with a fileprivate initializer.
     static let sharedInstance = Trip(fileName: "photos")
 
     fileprivate init(fileName:String) {
@@ -68,8 +68,8 @@ class AlbumViewController: UIViewController, UICollectionViewDelegate, UICollect
 }
 ```
 * ## Singleton in thread-safe case
-```Java
 
+```Java
 public class ASingleton{
 
 	private static ASingleton instance= null;
@@ -105,6 +105,21 @@ public final class Singleton {
             }
         }
         return instance;
+    }
+}
+```
+* ## Singleton in a thread-safe lazy initialization
+```Java
+public class Something {
+    private Something() {
+    }
+
+    private static class LazyHolder {
+            public static final Something INSTANCE = new Something();
+    }
+
+    public static Something getInstance() {
+            return LazyHolder.INSTANCE;
     }
 }
 ```
