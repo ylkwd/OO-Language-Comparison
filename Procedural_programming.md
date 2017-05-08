@@ -31,3 +31,5 @@ This also can only be allowed within a class, a struct, or a enum.
 
 ## Conclusion
 Java and Swift are not supporting Procedural programming because both of them are Object-Oriented programming, which takes method(procedure) and property(data) in the class. We cannot create a procedure without using Class.
+Procedural is all about using a method to solve a problem by given data.
+Object-Oriented is about focusing on more complexity of relation between each object. 
