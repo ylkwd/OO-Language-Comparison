@@ -2,11 +2,11 @@
 
 ### Java
 
-- In Java, "==" is used to compare value, .equals(), compareTo(), and compare() are used to compare references
+- In Java, "==" is used to compare references, .equals(), compareTo(), and compare() are used to compare object's value.
 
 ```Java
 
-//compare value
+//compare references
 int x = 1;
 int y = 2;
 
@@ -15,14 +15,30 @@ if(x == y)
 else
 	System.our.print("there are not the same"); //it will print this
 
-//compare references by using .equals()
-Class1 class1 = new Class1();  
-Class2 class2 = new Class2(); 
+//compare value in an Object by using .equals()
+String string1 = new String("John");
+String string2 = new String("John");
+String string3 = string2;
 
-if(class1.equals(class2)) {
-    System.our.print("there are the same");
-}
+if(string1 == string2)
+	System.our.print("there are the same");
+else
+	System.our.print("there are not the same"); //it will print this
 
+if(string1.equals(string2))
+	System.our.print("there are the same"); //it will print this
+else
+	System.our.print("there are not the same"); 
+
+if(string2.equals(string3))
+	System.our.print("there are the same"); //it will print this
+else
+	System.our.print("there are not the same"); 
+
+if(string1 == string3)
+	System.our.print("there are the same"); //it will print this
+else
+	System.our.print("there are not the same"); 
 ```
 
 ### Swift
