@@ -28,22 +28,22 @@ else
 if(string1.equals(string2))
 	System.our.print("there are the same"); //it will print this
 else
-	System.our.print("there are not the same"); 
+	System.our.print("there are not the same");
 
 if(string2.equals(string3))
 	System.our.print("there are the same"); //it will print this
 else
-	System.our.print("there are not the same"); 
+	System.our.print("there are not the same");
 
 if(string1 == string3)
 	System.our.print("there are the same"); //it will print this
 else
-	System.our.print("there are not the same"); 
+	System.our.print("there are not the same");
 ```
 
 ### Swift
 
-- In Swift, "==" is used to compare value same as Java, but Swift uses "===" to compare references.
+- In Swift, "==" is used to compare value, but Swift uses "===" to compare references.
 
 ```Swift
 var aString = "123"                                 // "123"
