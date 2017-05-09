@@ -1,4 +1,4 @@
-#Instance reference name in data type (class)
+# Instance reference name in data type (class)
 this? self?
 ## Java:
 this refers to the current object.
@@ -35,6 +35,6 @@ The increment() method in the example above could have been written like this:
 
 ```Swift
 func increment() {
-self.count += 1	
+self.count += 1
 }
 ```
