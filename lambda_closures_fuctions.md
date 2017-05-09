@@ -48,5 +48,17 @@ In Swift, there are four kinds of expressions
 
 Evaluating an expression returns a value, causes a side effect, or both.
 
+```Swift
+let strings = numbers.map { (number) -> String in
+    var number = number
+    var output = ""
+    repeat {
+        output = digitNames[number % 10]! + output
+        number /= 10
+    } while number > 0
+    return output
+}
+```
+
 
 
