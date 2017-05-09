@@ -11,7 +11,7 @@
  * Tends to emphasize implementing solutions in a linear fashion.
 
 ## Does Java support Procedural programming?
-No. Java is a pure Object-Oriented programming, where all computations are carried out using object, which is component of a program that knows how to perform certain actions and how to interact with other elements of the program. Method and variable have to reside in Class. Procedures and data are all bundling into Object in OOP.
+**No**. Java is a pure Object-Oriented programming, where all computations are carried out using object, which is component of a program that knows how to perform certain actions and how to interact with other elements of the program. Method and variable have to reside in Class. Procedures and data are all bundling into Object in OOP.
 
 
 A simple print statement shows below:
@@ -21,7 +21,7 @@ System.out.println("Hello World");
 This only works in a class.
 
 ## Does Swift support Procedural programming?
-No. Swift is also an Object-Oriented programming. It does have some other features that differ from Java. However, The fundamental component of Object-Oriented concept is still kept in Swift language.
+**No**. Swift is also an Object-Oriented programming. It does have some other features that differ from Java. However, The fundamental component of Object-Oriented concept is still kept in Swift language.
 
 A simple print statement shows below:
 ``` Swift
@@ -32,4 +32,4 @@ This also can only be allowed within a class, a struct, or a enum.
 ## Conclusion
 Java and Swift are not supporting Procedural programming because both of them are Object-Oriented programming, which takes method(procedure) and property(data) in the class. We cannot create a procedure without using Class.
 Procedural is all about using a method to solve a problem by given data.
-Object-Oriented is about focusing on more complexity of relation between each object. 
+Object-Oriented is about focusing on more complexity of relation between each object.
